@@ -87,7 +87,7 @@ export async function test(credentials) {
 
 export async function fetch(credentials, options, onProgress) {
   const { base_url, api_token } = credentials
-  const projectId = options.project
+  const projectId = (options.project ?? '').toLowerCase().trim()
   const limit = Number(options.limit ?? 100)
 
   if (!projectId) throw new Error('project identifier is required')
