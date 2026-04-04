@@ -10,7 +10,7 @@ function authHeader(apiToken) {
 }
 
 async function opGet(baseUrl, apiToken, path) {
-  const res = await fetch(`${baseUrl}/api/v3${path}`, {
+  const res = await globalThis.fetch(`${baseUrl}/api/v3${path}`, {
     headers: { Authorization: authHeader(apiToken), Accept: 'application/json' },
     signal: AbortSignal.timeout(15000),
   })
