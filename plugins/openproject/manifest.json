@@ -1,0 +1,37 @@
+{
+  "source_type": "openproject",
+  "name": "OpenProject",
+  "version": "1.0.0",
+  "description": "Import work packages from OpenProject (cloud or self-hosted)",
+  "author": "nobsagile",
+  "credentials": [
+    {
+      "key": "base_url",
+      "label": "Server URL",
+      "type": "url",
+      "placeholder": "https://yourinstance.openproject.com"
+    },
+    {
+      "key": "api_token",
+      "label": "API Token",
+      "type": "password",
+      "help": "Generate in My Account → Access Tokens → API"
+    }
+  ],
+  "fetch_options": [
+    {
+      "key": "project",
+      "label": "Project Identifier",
+      "type": "string",
+      "required": true,
+      "placeholder": "my-project",
+      "help": "The identifier shown in your project URL: /projects/{identifier}"
+    },
+    {
+      "key": "limit",
+      "label": "Max Items",
+      "type": "number",
+      "default": 100
+    }
+  ]
+}

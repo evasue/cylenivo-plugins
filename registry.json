@@ -1,0 +1,9 @@
+[
+  {
+    "id": "openproject",
+    "name": "OpenProject",
+    "description": "Import work packages from OpenProject (cloud or self-hosted)",
+    "path": "plugins/openproject",
+    "sha256": "e1e647d434e6a07b4577e3e37fc95477a8d271d42ff163eedb0b35ba8b84658d"
+  }
+]
