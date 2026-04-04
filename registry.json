@@ -4,6 +4,6 @@
     "name": "OpenProject",
     "description": "Import work packages from OpenProject (cloud or self-hosted)",
     "path": "plugins/openproject",
-    "sha256": "950bd644f99f0d35bfcf18704660ecb043fb54b5b05a0fd37fd4de8320ce0da5"
+    "sha256": "19ed3deac6a6762085c106cdad310dc393342d7b2aa606894f3809bcfcb1abb7"
   }
 ]
