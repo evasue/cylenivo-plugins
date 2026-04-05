@@ -1,0 +1,37 @@
+{
+  "source_type": "trello",
+  "name": "Trello",
+  "version": "1.0.0",
+  "description": "Import cards from a Trello board with full list-transition history",
+  "author": "nobsagile",
+  "credentials": [
+    {
+      "key": "api_key",
+      "label": "API Key",
+      "type": "string",
+      "help": "Found at https://trello.com/power-ups/admin — click 'New' or use an existing Power-Up"
+    },
+    {
+      "key": "api_token",
+      "label": "API Token",
+      "type": "password",
+      "help": "See README for the authorization URL to generate your token"
+    }
+  ],
+  "fetch_options": [
+    {
+      "key": "board",
+      "label": "Board ID",
+      "type": "string",
+      "required": true,
+      "placeholder": "ABC123de",
+      "help": "The short code from your board URL: trello.com/b/{this-part}/board-name"
+    },
+    {
+      "key": "limit",
+      "label": "Max cards",
+      "type": "number",
+      "default": 200
+    }
+  ]
+}

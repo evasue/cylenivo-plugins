@@ -5,5 +5,12 @@
     "description": "Import work packages from OpenProject (cloud or self-hosted)",
     "path": "plugins/openproject",
     "sha256": "19ed3deac6a6762085c106cdad310dc393342d7b2aa606894f3809bcfcb1abb7"
+  },
+  {
+    "id": "trello",
+    "name": "Trello",
+    "description": "Import cards from a Trello board with full list-transition history",
+    "path": "plugins/trello",
+    "sha256": "8ccaeb405f61e7358cd6afaa5942f15a7254cdfbebb759f6dba4b37f5d8d4160"
   }
 ]
