@@ -1,5 +1,7 @@
 # Building a Cylenivo Plugin
 
+← [Back to plugin registry](README.md) · [Cylenivo on GitHub](https://github.com/nobsagile/cylenivo) · [cylenivo.org](https://cylenivo.org)
+
 A Cylenivo plugin is a plain JavaScript file that connects any project management tool to Cylenivo's metric engine. No build step required.
 
 ## Plugin structure
