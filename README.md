@@ -11,6 +11,7 @@ Community connectors for [Cylenivo](https://cylenivo.org) — connect any projec
 | Plugin | Description |
 |---|---|
 | [OpenProject](plugins/openproject/) | Import work packages from OpenProject (cloud or self-hosted) |
+| [Trello](plugins/trello/) | Import cards from a Trello board with full list-transition history |
 
 ---
 
