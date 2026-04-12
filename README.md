@@ -4,6 +4,8 @@ Community connectors for [Cylenivo](https://cylenivo.org) — connect any projec
 
 > **What is Cylenivo?** A local desktop app that turns your ticket data into Cycle Time, Lead Time, Throughput, and Monte Carlo delivery forecasts. No cloud, no accounts. → [cylenivo.org](https://cylenivo.org) · [GitHub](https://github.com/nobsagile/cylenivo)
 
+→ **[Getting started guide: Your First Dataset from Jira, Trello, or OpenProject](https://cylenivo.org/guide)**
+
 ---
 
 ## Available plugins
