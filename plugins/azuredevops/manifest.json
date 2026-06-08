@@ -1,0 +1,46 @@
+{
+  "source_type": "azuredevops",
+  "name": "Azure DevOps",
+  "version": "1.0.0",
+  "description": "Import Product Backlog Items with status transitions from Azure DevOps (cloud)",
+  "author": "your-github-username",
+  "credentials": [
+    {
+      "key": "organization",
+      "label": "Organization",
+      "type": "string",
+      "placeholder": "myorg",
+      "help": "The organization name from your URL: dev.azure.com/{organization}"
+    },
+    {
+      "key": "pat",
+      "label": "Personal Access Token",
+      "type": "password",
+      "help": "Generate in User Settings → Personal Access Tokens. Required scope: Work Items (Read)"
+    }
+  ],
+  "fetch_options": [
+    {
+      "key": "project",
+      "label": "Project",
+      "type": "string",
+      "required": true,
+      "placeholder": "MyProject",
+      "help": "The project name as shown in Azure DevOps"
+    },
+    {
+      "key": "area_path",
+      "label": "Area Path",
+      "type": "string",
+      "required": false,
+      "placeholder": "MyProject\\\\MyTeam",
+      "help": "Optional. Filters by area path prefix (e.g. MyProject\\MyTeam). Leave empty for all areas."
+    },
+    {
+      "key": "limit",
+      "label": "Max Items",
+      "type": "number",
+      "default": 100
+    }
+  ]
+}
