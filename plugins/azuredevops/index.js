@@ -145,8 +145,9 @@ export async function test(credentials) {
   const { organization, pat } = credentials
   if (!organization || !pat) throw new Error('organization and pat are required')
 
-  const data = await adoGet(organization, pat, '/_apis/profile/profiles/me?api-version=7.1')
-  return { ok: true, display_name: data.displayName ?? data.emailAddress ?? 'Unknown' }
+  // /_apis/profile is a vssps endpoint — use the org-scoped connection data instead
+  const data = await adoGet(organization, pat, '/_apis/connectionData?api-version=7.1-preview')
+  return { ok: true, display_name: data.authenticatedUser?.providerDisplayName ?? 'Unknown' }
 }
 
 /**
