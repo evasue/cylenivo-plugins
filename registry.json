@@ -17,7 +17,7 @@
     "id": "azuredevops",
     "name": "Azure DevOps",
     "description": "Import cards from an Azure DevOps board",
-    "path": "plugins/trello",
+    "path": "plugins/azuredevops",
     "sha256": "placeholder"
   }
 ]
