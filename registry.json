@@ -12,5 +12,12 @@
     "description": "Import cards from a Trello board with full list-transition history",
     "path": "plugins/trello",
     "sha256": "8ccaeb405f61e7358cd6afaa5942f15a7254cdfbebb759f6dba4b37f5d8d4160"
+  },
+  {
+    "id": "azuredevops",
+    "name": "Azure DevOps",
+    "description": "Import cards from an Azure DevOps board",
+    "path": "plugins/trello",
+    "sha256": "placeholder"
   }
 ]
